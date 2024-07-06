@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Web Page Summarizer",
+  "version": "0.1",
+  "description": "Summarizes web pages using Gemini Nano",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "index.html",
+    "default_height": 600,
+    "default_width": 400
+  }
+}
