@@ -37,11 +37,14 @@ This Chrome extension provides a summary of web page contents using the built-in
     npm run build
     ```
 
-3. Load the extension into Chrome:
+3. Alternatively, you can use the pre-built `dist.zip` from the releases:
+    - Download it from [here](https://github.com/ainoya/chrome-extension-web-distiller-ai/releases/latest).
+
+4. Load the extension into Chrome:
 
     - Open Chrome and navigate to `chrome://extensions/`.
     - Enable "Developer mode" in the top right corner.
-    - Click "Load unpacked" and select the `dist` directory from this repository.
+    - Click "Load unpacked" and select the `dist` directory from this repository or the extracted `dist.zip`.
 
 ## Limitations
 
