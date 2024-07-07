@@ -5,6 +5,8 @@ on:
 jobs:
   tagpr:
     runs-on: ubuntu-latest
+    outputs:
+      tag: ${{ steps.tagpr.outputs.tag }}
     permissions:
       contents: write
       issues: write
@@ -12,5 +14,23 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: Songmu/tagpr@v1
+        id: tagpr
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  # run job to upload artifact if git tagged
+  upload:
+    runs-on: ubuntu-latest
+    needs: tagpr
+    if: needs.tagpr.outputs.tag != ''
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "20"
+      - name: Install dependencies
+        run: npm install
+      - name: Upload artifact
+        uses: softprops/action-gh-release@v2
