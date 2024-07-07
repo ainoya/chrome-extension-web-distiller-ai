@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Web Page Summarizer AI",
+  "name": "Web Distiller AI",
   "version": "0.1",
-  "description": "Summarizes web pages using Gemini Nano in Chrome",
+  "description": "Summarizes and Translates web pages using Gemini Nano in Chrome",
   "permissions": ["activeTab", "scripting"],
   "action": {
     "default_popup": "index.html",
