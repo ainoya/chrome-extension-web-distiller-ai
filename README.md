@@ -54,3 +54,4 @@ This Chrome extension provides a summary of web page contents using the built-in
 ## References
 
 - [explainers-by-googlers/prompt-api: A proposal for a web API for prompting browser-provided language models](https://github.com/explainers-by-googlers/prompt-api)
+- [Web Distiller AI: A Chrome Extension for Summarizing Web Pages](https://ainoya.dev/posts/web-distiller-ai-chrome-extension/): My blog post about this project.
