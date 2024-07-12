@@ -1,5 +1,7 @@
 # Web Distiller AI - Chrome Extension
 
+[Chrome Extension Web Store](https://chromewebstore.google.com/detail/web-distiller-ai/ooaogogbdciochplilffdihffdijakfk)
+
 ![demo image](./images/demo-web-distiller-ai-chrome-extension.gif)
 
 This Chrome extension provides a summary of web page contents using the built-in Gemini Nano model. It is implemented with React and offers secure in-browser summarization without sending content to external networks.
