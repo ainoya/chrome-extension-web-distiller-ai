@@ -1,5 +1,8 @@
 # Changelog
 
+## [v0.0.6](https://github.com/ainoya/chrome-extension-web-distiller-ai/compare/v0.0.5...v0.0.6) - 2024-07-16
+- chore: Update manifest.json version to 0.2 by @ainoya in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/25
+
 ## [v0.0.5](https://github.com/ainoya/chrome-extension-web-distiller-ai/compare/v0.0.4...v0.0.5) - 2024-07-16
 - chore: Configure Renovate by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/6
 - chore(deps): update actions/setup-node action to v4 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/9
