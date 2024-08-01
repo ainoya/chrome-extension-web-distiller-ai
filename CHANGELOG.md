@@ -1,5 +1,10 @@
 # Changelog
 
+## [v0.0.7](https://github.com/ainoya/chrome-extension-web-distiller-ai/compare/v0.0.6...v0.0.7) - 2024-08-01
+- chore(deps): update dependency tailwindcss to v3.4.6 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/27
+- fix(deps): update dependency lucide-react to ^0.412.0 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/30
+- fix(deps): update dependency lucide-react to ^0.418.0 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/32
+
 ## [v0.0.6](https://github.com/ainoya/chrome-extension-web-distiller-ai/compare/v0.0.5...v0.0.6) - 2024-07-16
 - chore: Update manifest.json version to 0.2 by @ainoya in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/25
 
