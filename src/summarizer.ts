@@ -52,14 +52,26 @@ export async function summarizeWebPage(language: string): Promise<string> {
   const prompt = `Summarize the following text.:\n\n${markdownPrompt}`;
   console.debug("prompt", prompt);
   let summary = await session.prompt(prompt);
+  session.destroy();
 
   // Translate the summary to Japanese
+  console.debug("language", language);
+  // initialize session for tlanslation
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-ignore
+  const sessionTranslator = await window.ai.assistant.create({
+    systemPrompt: "You are helpful assistant to translate the summary",
+    topK: 10,
+    temperature: 0,
+  });
+
   if (language === "japanese") {
-    summary = await session.prompt(
-      `Translate the following text to Japanese:\n\n${summary}`
+    summary = await sessionTranslator.prompt(
+      `日本語に翻訳してください:\n\n${summary}`
     );
     console.debug("translated", summary);
   }
+  sessionTranslator.destroy();
 
   console.debug("summary", summary);
 
