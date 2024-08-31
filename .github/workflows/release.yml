@@ -13,6 +13,12 @@ jobs:
       pull-requests: write
     steps:
       - uses: actions/checkout@v4
+      - name: increment chrome extnsion manifest.json version
+        run: |
+          CURRENT_VERSION=$(jq -r '.version' public/manifest.json)
+          NEW_VERSION=$(echo $CURRENT_VERSION | awk -F. '{$NF+=1; OFS="."; print $0}')
+          jq --arg new_version $NEW_VERSION '.version = $new_version' public/manifest.json > public/manifest.json.tmp
+          mv public/manifest.json.tmp public/manifest.json
       - uses: Songmu/tagpr@v1
         id: tagpr
         env:
