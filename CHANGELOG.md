@@ -1,5 +1,8 @@
 # Changelog
 
+## [v0.0.8](https://github.com/ainoya/chrome-extension-web-distiller-ai/compare/v0.0.7...v0.0.8) - 2024-08-31
+- Add translation support for Japanese language in summarizeWebPage function by @ainoya in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/45
+
 ## [v0.0.7](https://github.com/ainoya/chrome-extension-web-distiller-ai/compare/v0.0.6...v0.0.7) - 2024-08-31
 - chore(deps): update dependency tailwindcss to v3.4.6 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/27
 - fix(deps): update dependency lucide-react to ^0.412.0 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/30
