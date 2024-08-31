@@ -1,5 +1,9 @@
 # Changelog
 
+## [v0.0.9](https://github.com/ainoya/chrome-extension-web-distiller-ai/compare/v0.0.8...v0.0.9) - 2024-08-31
+- Increment chrome extension manifest.json version by @ainoya in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/47
+- Fix version up script by @ainoya in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/48
+
 ## [v0.0.8](https://github.com/ainoya/chrome-extension-web-distiller-ai/compare/v0.0.7...v0.0.8) - 2024-08-31
 - Add translation support for Japanese language in summarizeWebPage function by @ainoya in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/45
 
