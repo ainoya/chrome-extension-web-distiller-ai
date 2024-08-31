@@ -40,7 +40,7 @@ export async function summarizeWebPage(language: string): Promise<string> {
   // Generate summary using Gemini Nano
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-ignore
-  const session = await window.ai.createTextSession({
+  const session = await window.ai.assistant.create({
     systemPrompt:
       "You are helpful assistant to summarize web article. Your output is markdown formatted. please summary with bullet points and meaningful sections.",
     topK: 10,
