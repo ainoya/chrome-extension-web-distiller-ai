@@ -16,7 +16,7 @@ jobs:
       - name: increment chrome extnsion manifest.json version
         run: |
           CURRENT_VERSION=$(jq -r '.version' public/manifest.json)
-          NEW_VERSION=$(echo $CURRENT_VERSION | awk -F. '{$NF+=1; OFS="."; print $0}')
+          NEW_VERSION=$(echo $CURRENT_VERSION | awk -F. '{if (NF==1) {$1+=1} else {$NF+=1}; OFS="."; print $0}' | sed 's/ /./g')
           jq --arg new_version $NEW_VERSION '.version = $new_version' public/manifest.json > public/manifest.json.tmp
           mv public/manifest.json.tmp public/manifest.json
       - uses: Songmu/tagpr@v1
