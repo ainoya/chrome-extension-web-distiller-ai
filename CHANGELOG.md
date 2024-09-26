@@ -1,5 +1,15 @@
 # Changelog
 
+## [v0.0.10](https://github.com/ainoya/chrome-extension-web-distiller-ai/compare/v0.0.9...v0.0.10) - 2024-09-26
+- chore(deps): bump micromatch from 4.0.7 to 4.0.8 in the npm_and_yarn group across 1 directory by @dependabot in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/42
+- chore(deps): update dependency @types/node to v20.16.2 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/28
+- chore(deps): update dependency @types/chrome to ^0.0.270 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/36
+- chore(deps): update dependency @types/turndown to v5.0.5 - autoclosed by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/35
+- chore(deps): update typescript-eslint monorepo to v7.18.0 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/33
+- chore(deps-dev): bump vite from 5.3.4 to 5.4.6 in the npm_and_yarn group across 1 directory by @dependabot in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/54
+- chore(deps): update dependency autoprefixer to v10.4.20 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/41
+- chore(deps): update dependency @types/chrome to ^0.0.272 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/56
+
 ## [v0.0.9](https://github.com/ainoya/chrome-extension-web-distiller-ai/compare/v0.0.8...v0.0.9) - 2024-08-31
 - Increment chrome extension manifest.json version by @ainoya in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/47
 - Fix version up script by @ainoya in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/48
