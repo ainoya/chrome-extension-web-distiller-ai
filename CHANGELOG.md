@@ -1,5 +1,33 @@
 # Changelog
 
+## [v0.0.10](https://github.com/ainoya/chrome-extension-web-distiller-ai/compare/v0.0.9...v0.0.10) - 2024-12-11
+- chore(deps): bump micromatch from 4.0.7 to 4.0.8 in the npm_and_yarn group across 1 directory by @dependabot in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/42
+- chore(deps): update dependency @types/node to v20.16.2 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/28
+- chore(deps): update dependency @types/chrome to ^0.0.270 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/36
+- chore(deps): update dependency @types/turndown to v5.0.5 - autoclosed by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/35
+- chore(deps): update typescript-eslint monorepo to v7.18.0 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/33
+- chore(deps-dev): bump vite from 5.3.4 to 5.4.6 in the npm_and_yarn group across 1 directory by @dependabot in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/54
+- chore(deps): update dependency autoprefixer to v10.4.20 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/41
+- chore(deps): update dependency @types/chrome to ^0.0.272 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/56
+- chore(deps): update dependency eslint to v8.57.1 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/60
+- chore(deps): bump rollup from 4.21.3 to 4.22.4 in the npm_and_yarn group across 1 directory by @dependabot in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/58
+- chore(deps): update dependency @types/node to v20.17.2 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/57
+- chore(deps): update react monorepo by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/59
+- chore(deps): update dependency vite to v5.4.11 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/63
+- chore(deps): update dependency @vitejs/plugin-react-swc to v3.7.1 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/62
+- chore(deps): update dependency @types/chrome to ^0.0.283 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/61
+- fix(deps): update dependency tailwind-merge to v2.5.4 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/53
+- fix(deps): update dependency lucide-react to ^0.460.0 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/52
+- chore(deps): update dependency eslint-plugin-react-refresh to v0.4.14 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/50
+- chore(deps): update dependency tailwindcss to v3.4.15 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/39
+- chore(deps): update node.js to v20.18.1 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/37
+- chore(deps): update dependency typescript to v5.6.3 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/34
+- chore(deps): bump cross-spawn from 7.0.3 to 7.0.6 in the npm_and_yarn group across 1 directory by @dependabot in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/66
+- chore(deps): update dependency @types/node to v20.17.6 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/64
+- chore(deps): update dependency postcss to v8.4.49 by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/65
+- fix(deps): update react monorepo (major) by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/68
+- fix(deps): update radix-ui-primitives monorepo by @renovate in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/67
+
 ## [v0.0.9](https://github.com/ainoya/chrome-extension-web-distiller-ai/compare/v0.0.8...v0.0.9) - 2024-08-31
 - Increment chrome extension manifest.json version by @ainoya in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/47
 - Fix version up script by @ainoya in https://github.com/ainoya/chrome-extension-web-distiller-ai/pull/48
