@@ -1,6 +1,14 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended"
-  ]
+  "extends": ["config:recommended", "group:all"],
+  "timezone": "Asia/Tokyo",
+  "schedule": ["* 0-5 1 * *"],
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "groupName": null,
+    "schedule": ["at any time"],
+    "minimumReleaseAge": null,
+    "prCreation": "immediate"
+  },
+  "osvVulnerabilityAlerts": true
 }
